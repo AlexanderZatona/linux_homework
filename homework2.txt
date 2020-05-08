@@ -1,0 +1,60 @@
+настроил интерфейс:настройки-сеть-адаптер2-внутренняя сеть
+
+
+написал команды которые я вводил для выполнения задания:
+sudo apt-get update
+sudo apt-get install openssh-server
+sudo systemctl status sshd
+ssh localhost
+ps aux
+pstree
+ip a
+ssh-keygen
+ls -la
+ls -la ~/.ssh/
+cat ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+ssh azatona@10.0.2.15 -i
+sudo apt install git
+git clone git@hub.com:azatona/linux_homework.git
+ssh-keygen
+ls -la
+ls -la ~/.ssh/
+cat ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+cat ~/'Рабочий стол'/id_rsa
+cp ~/.ssh/id_rsa.pub  ~/.ssh/authorized_keys
+ls -la ~/.ssh/
+cat ~/.ssh/authorized_keys
+cat ~/.ssh/id_rsa.pub
+git clone https://github.com/AlexanderZatona/linux_homework.git
+ls -la
+cd linux_homework/
+cat .gitignore
+git checkout -b branch1
+git branch
+git push
+git push --set-upstream origin branch1
+Username for 'https://github.com': AlexanderZatona
+Password for 'https://AlexanderZatona@github.com':
+cd
+git clone https://github.com/AlexanderZatona/linux_homework.git linux_homework2
+cd linux_homework2
+ls
+git branch
+git branch --all
+git checkout -b branch2
+git push --set-upstream origin branch2
+cd
+cd linux_homework
+git remote -vv
+ls -la ~/.ssh/id_rsa
+ls -la
+git pull
+git status
+git commit -m 'added file homework2.txt'
+git config --global user.email "sanyron@mail.ru"
+git config --global user.name "Zatona Alexander"
+git commit -m 'added file homework2.txt'
+git push
+
