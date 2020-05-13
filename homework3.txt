@@ -1,0 +1,30 @@
+!/bin/bash
+mkdir -p ~/tmp/lesson3/permissions
+ls -la
+cd ~/tmp/lesson3/permissions
+touch file_homework3.txt
+echo "my homework number 3" > file_homework3.txt
+ln file_homework3.txt symbol_soft.txt
+ln file_homework3.txt symbol_hard.txt
+cd
+ln permissions/symbol_soft.txt  symbol_soft2.txt
+cd permissions
+cat file_homework3.txt
+mv symbol_soft.txt ~/tmp
+mv symbol_hard.txt ~/tmp
+ls -la
+cd
+
+
+сделал через nano,vim почему то не хотел устанавливаться,в начале загружался,но потом ругался и писал ошибка,предлагал пути решения,но ничего не вышло.
+скрипт отработал и ссылки тоже,были по началу проблемы с работой первой ссылки,по потом разобрался.
+./first_script.sh запустил
+удалил rm -R ~/tmp/
+Set UID разрешает доступ к правам как владельцу
+Set GID разрешает доступ к правам как члену группы
+chmod g+s ~/home/linux_homework/homework3
+chmod u+x ~/first_script.sh
+из прочитаного понял что нужно устанавливать так:
+git clone git@github.com:nodejs/node.git opt
+sudo apt-get install python g++ make
+
